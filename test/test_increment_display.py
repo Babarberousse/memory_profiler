@@ -6,8 +6,6 @@ from io import StringIO
 
 class TestIncrementDisplay(unittest.TestCase):
     """Tests memory incrementation / decrementation display"""
-
-
     def test_normal_incr(self):
 
         def normal_incr():
